@@ -30,7 +30,7 @@ public class ScoreManager : MonoBehaviour
     {
         if (scoreText != null)
         {
-            scoreText.text = "Pumpkins Collected: " + Score;
+            scoreText.text = "Souls Collected: " + Score;
         }
     }
 }
