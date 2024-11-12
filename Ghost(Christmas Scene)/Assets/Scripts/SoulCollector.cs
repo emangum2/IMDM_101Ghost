@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PumpkinCollectible : MonoBehaviour
+public class SoulCollector : MonoBehaviour
 {
     // This method is called when another collider enters the trigger collider attached to this GameObject
     private void OnTriggerEnter(Collider other)
