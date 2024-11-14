@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/HalloweenScene.unity
+    path: Assets/Scenes/HalloweenScene1.unity
     guid: 66642636f1a55da4b87d5f78e070c113
   - enabled: 1
     path: Assets/Scenes/Christmas Scene.unity
