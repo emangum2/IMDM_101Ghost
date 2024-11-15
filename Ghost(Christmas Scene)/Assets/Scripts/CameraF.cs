@@ -8,16 +8,13 @@ public class CameraF : MonoBehaviour
     public Vector3 offset;   // Offset from the target position
     public float smoothSpeed = 0.125f; // Speed of the camera movement
 
-    // starting location for ghost 
     void Start()
     {
         // Set a default offset directly behind the player if not set
         if (offset == Vector3.zero)
         {
             offset = new Vector3(0, 2, -5); // Position the camera behind and slightly above
-
         }
-
     }
 
     void LateUpdate()
@@ -32,6 +29,6 @@ public class CameraF : MonoBehaviour
         transform.position = smoothedPosition;
 
         // Make the camera look at the target
-        transform.LookAt(target.position + Vector3.up * -0.1f); // Look slightly above the target for a better view
+        transform.LookAt(target.position + Vector3.up * 1.5f); // Look slightly above the target for a better view
     }
 }
