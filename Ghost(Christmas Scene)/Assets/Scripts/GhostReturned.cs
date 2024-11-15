@@ -5,7 +5,7 @@ using UnityEngine;
 public class GhostReturned : MonoBehaviour
 {
     // Target location where the player will be placed upon return
-    public Vector3 playerReturnPosition = new Vector3(30.5f, 6.7f, 0f);
+    private Vector3 playerReturnPosition = new Vector3(24.67f, 1f, 104.6f);
 
     // Array of objects to make visible when the player returns
     public GameObject[] objectsToShow;
