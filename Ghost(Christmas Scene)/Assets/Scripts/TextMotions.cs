@@ -6,18 +6,15 @@ public class Text : MonoBehaviour
 {
     public GameObject IntroTextObject; 
     public GameObject InstructionTextObject; 
-    public GameObject SummTextObject;
+    public GameObject SummTextObject; 
 
-
-    private float timer = 0f;    
-
+    private float timer = 0f;     
 
     void Start()
     {
         IntroTextObject.SetActive(true);
         InstructionTextObject.SetActive(false);
         SummTextObject.SetActive(false);
-
  
     }
 
@@ -49,7 +46,7 @@ public class Text : MonoBehaviour
             IntroTextObject.SetActive(false);
             InstructionTextObject.SetActive(false);
             SummTextObject.SetActive(false);
+ 
         }
-
     }
 }
