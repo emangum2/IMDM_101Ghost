@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cameramovement : MonoBehaviour
+public class CameraMovement : MonoBehaviour
 {
     public Transform target;  // The object the camera follows
     public Vector3 offset;    // Offset distance between the camera and the target
