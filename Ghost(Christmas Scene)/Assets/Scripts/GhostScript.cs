@@ -22,9 +22,6 @@ public class GhostScript : MonoBehaviour
     private bool DissolveFlg = false;
     private const int maxHP = 3;
     private int HP = maxHP;
-        
-    // starting location for ghost 
-    public Vector3 playerPosition = new Vector3(92f, 0.9f, 52.48f);
 
 
     // moving speed
@@ -34,9 +31,7 @@ public class GhostScript : MonoBehaviour
     {
         Anim = this.GetComponent<Animator>();
         Ctrl = this.GetComponent<CharacterController>();
-        transform.position = playerPosition;
-
-    
+     
     }
 
     void Update()
