@@ -7895,12 +7895,12 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 3ec7190d70ac9f34d962b0d5430d9681, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
-  m_Pitch: 2.13
+  m_Pitch: -1.12
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 208
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -21298,7 +21298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69a4d6fa647c24e4e9dbb675b9802116, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: ThanksgivingScene
+  sceneToLoad: GivingScene
 --- !u!1 &1827651390
 GameObject:
   m_ObjectHideFlags: 0
@@ -22871,6 +22871,7 @@ GameObject:
   - component: {fileID: 1963524040}
   - component: {fileID: 1963524039}
   - component: {fileID: 1963524042}
+  - component: {fileID: 1963524043}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -22978,6 +22979,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f25100b0590300479e8cbe302481945, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1963524043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963524037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69a4d6fa647c24e4e9dbb675b9802116, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: GivingScene
 --- !u!1001 &1964356294
 PrefabInstance:
   m_ObjectHideFlags: 0
