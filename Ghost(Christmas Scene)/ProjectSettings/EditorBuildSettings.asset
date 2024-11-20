@@ -14,7 +14,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Next Scene.unity
     guid: 55c0849d63d5fb54d8d0fc39f11f5041
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ThanksgivingScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/GivingScene.unity
+    guid: f21ff5c108a585f44aab6130f981f891
   m_configObjects: {}
