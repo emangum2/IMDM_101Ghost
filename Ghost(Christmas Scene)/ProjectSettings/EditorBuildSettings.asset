@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GivingScene.unity
     guid: f21ff5c108a585f44aab6130f981f891
+  - enabled: 1
+    path: Assets/Scenes/HalloweenScene.unity
+    guid: 24d192da9e6b77a4881fbd8bdf9008a9
   m_configObjects: {}
