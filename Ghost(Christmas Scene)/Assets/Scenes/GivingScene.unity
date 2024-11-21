@@ -7704,7 +7704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69a4d6fa647c24e4e9dbb675b9802116, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: HalloweenScene
+  sceneToLoad: HalloweenScene1
 --- !u!114 &279519011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10513,7 +10513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69a4d6fa647c24e4e9dbb675b9802116, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: HalloweenScene
+  sceneToLoad: HalloweenScene1
 --- !u!65 &360306684
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18148,7 +18148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69a4d6fa647c24e4e9dbb675b9802116, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: HalloweenScene
+  sceneToLoad: HalloweenScene1
 --- !u!65 &629943972
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23169,7 +23169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e16277fb4d4b1cc419ce54f8ac908ed7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  moveSpeed: 7
   rotationSpeed: 700
 --- !u!136 &836921430
 CapsuleCollider:
@@ -44765,13 +44765,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5697c38e6d666054f892046e1520b2b2, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: -1.44
+  m_Volume: 0.71
+  m_Pitch: 1.52
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 210
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
