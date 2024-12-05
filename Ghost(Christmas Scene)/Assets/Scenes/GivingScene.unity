@@ -17556,7 +17556,7 @@ PrefabInstance:
     - target: {fileID: -1372456973505535881, guid: be5a875fc2de8364daa2625597e34182, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5024f8e4c77e6e94792530e7bc499f6c, type: 2}
+      objectReference: {fileID: 2100000, guid: 060c9e4a3c6d5b448af881251387af70, type: 2}
     - target: {fileID: 919132149155446097, guid: be5a875fc2de8364daa2625597e34182, type: 3}
       propertyPath: m_Name
       value: chi (3)
@@ -26107,7 +26107,7 @@ PrefabInstance:
     - target: {fileID: -1372456973505535881, guid: be5a875fc2de8364daa2625597e34182, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5024f8e4c77e6e94792530e7bc499f6c, type: 2}
+      objectReference: {fileID: 2100000, guid: 060c9e4a3c6d5b448af881251387af70, type: 2}
     - target: {fileID: 919132149155446097, guid: be5a875fc2de8364daa2625597e34182, type: 3}
       propertyPath: m_Name
       value: chi (2)
@@ -27951,7 +27951,7 @@ PrefabInstance:
     - target: {fileID: -1372456973505535881, guid: be5a875fc2de8364daa2625597e34182, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5024f8e4c77e6e94792530e7bc499f6c, type: 2}
+      objectReference: {fileID: 2100000, guid: 060c9e4a3c6d5b448af881251387af70, type: 2}
     - target: {fileID: 919132149155446097, guid: be5a875fc2de8364daa2625597e34182, type: 3}
       propertyPath: m_Name
       value: chi (1)
@@ -28638,7 +28638,7 @@ PrefabInstance:
     - target: {fileID: -1372456973505535881, guid: be5a875fc2de8364daa2625597e34182, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5024f8e4c77e6e94792530e7bc499f6c, type: 2}
+      objectReference: {fileID: 2100000, guid: 060c9e4a3c6d5b448af881251387af70, type: 2}
     - target: {fileID: 919132149155446097, guid: be5a875fc2de8364daa2625597e34182, type: 3}
       propertyPath: m_Name
       value: chi
