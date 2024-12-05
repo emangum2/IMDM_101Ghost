@@ -1,26 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class CameraMovement : MonoBehaviour
 {
-    public GameObject player; // Player object to follow
+    public Transform target; // The target (ghost) to follow
+    public Vector3 offset;   // Offset from the target position
+    public float smoothSpeed = 0.125f; // Speed of the camera movement
 
-    // Offset values to position the camera relative to the player
-    public Vector3 positionOffset = new Vector3(0f, 5f, -10f); 
-
-    public float rotationSpeed = 5f; // Speed at which the camera rotates with the player
-
+    void Start()
+    {
+        
+        // Set a default offset directly behind the player if not set
+        if (offset == Vector3.zero)
+        {
+            offset = new Vector3(0, 10, -15); // Position the camera behind and slightly above
+        }
+   
+    }
     void LateUpdate()
     {
-        // Calculate the camera's new position relative to the player
-        Vector3 targetPosition = player.transform.position + player.transform.TransformDirection(positionOffset);
-
-        // Smoothly move the camera to the target position
-        transform.position = Vector3.Lerp(transform.position, targetPosition, rotationSpeed * Time.deltaTime);
-
-        // Rotate the camera to align with the player's forward direction
-        Quaternion targetRotation = Quaternion.LookRotation(player.transform.forward, Vector3.up);
-        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+        // Calculate the desired position directly behind the target
+        Vector3 desiredPosition = target.position + target.TransformDirection(offset);
+        
+        // Smoothly interpolate to the desired position
+        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
+        
+        // Update camera position
+        transform.position = smoothedPosition;
+        // Make the camera look at the target
+        transform.LookAt(target.position + Vector3.up * 1.5f); // Look slightly above the target for a better view
     }
 }
+
