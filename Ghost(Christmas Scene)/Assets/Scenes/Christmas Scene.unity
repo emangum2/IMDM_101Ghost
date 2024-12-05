@@ -7994,7 +7994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e16277fb4d4b1cc419ce54f8ac908ed7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 3
   rotationSpeed: 700
 --- !u!1 &956332107 stripped
 GameObject:
@@ -14399,7 +14399,7 @@ PrefabInstance:
     - target: {fileID: 5192434827339724396, guid: c44a80ca2bb0b5c4fb154e3623930b96, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 3adcedba7a45b3d43ae0ad7975e19ec2, type: 2}
+      objectReference: {fileID: 2100000, guid: 214a71f8f1e2770448a61f75dede9750, type: 2}
     - target: {fileID: 6063735467071792529, guid: c44a80ca2bb0b5c4fb154e3623930b96, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.82969135
@@ -23064,7 +23064,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2a117ec75d6c5614090e28d31b76a66f, type: 2}
+  - {fileID: 2100000, guid: 5024f8e4c77e6e94792530e7bc499f6c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
