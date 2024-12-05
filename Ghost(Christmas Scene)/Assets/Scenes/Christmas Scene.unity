@@ -404,7 +404,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: There's 4 souls in total. Now hurry, go find them!
+  m_text: There's 4 souls in total. Now hurry!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4041,6 +4041,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1057114661}
     m_Modifications:
+    - target: {fileID: 1077564945974014415, guid: 87ef003622738824898df94e51e6f40a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 700550ff96aeb4b95b27ff24e7a9e5a6, type: 2}
     - target: {fileID: 1582095990421065754, guid: 87ef003622738824898df94e51e6f40a, type: 3}
       propertyPath: m_Name
       value: Snow_Small_Terrain_6
@@ -5697,6 +5701,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8703748529688464190, guid: f0932cee504e8c64baf37d1241e61809, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 700550ff96aeb4b95b27ff24e7a9e5a6, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6709,6 +6717,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8703748529688464190, guid: f0932cee504e8c64baf37d1241e61809, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 700550ff96aeb4b95b27ff24e7a9e5a6, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7812,7 +7824,7 @@ PrefabInstance:
       addedObject: {fileID: 941525376}
     - targetCorrespondingSourceObject: {fileID: 19588385245968726, guid: 8ee08d04ad5df46fbb2e97260b63420b, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 941525381}
+      addedObject: {fileID: 941525377}
   m_SourcePrefab: {fileID: 100100000, guid: 8ee08d04ad5df46fbb2e97260b63420b, type: 3}
 --- !u!1 &941525353 stripped
 GameObject:
@@ -7970,7 +7982,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &941525381
+--- !u!114 &941525377
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7979,10 +7991,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 941525353}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0497db8d13bd79d4f97b102014456924, type: 3}
+  m_Script: {fileID: 11500000, guid: e16277fb4d4b1cc419ce54f8ac908ed7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2.5
+  speed: 12
+  rotationSpeed: 200
 --- !u!1 &956332107 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ff4f4a79524502045b5235ff4e6dd2a7, type: 3}
@@ -8135,11 +8148,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43c4cca447b6ba84cade9ed77b367a14, type: 3}
+  m_Script: {fileID: 11500000, guid: 74c604bae6c3b7e4eb025565a9fed47d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 941525357}
-  offset: {x: 0, y: 2, z: -3.5}
+  offset: {x: 0.1, y: 1, z: -3}
   smoothSpeed: 0.125
 --- !u!1001 &964626508
 PrefabInstance:
@@ -14945,8 +14958,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280299687
-  m_fontColor: {r: 0.654902, g: 0.1882353, b: 0.1254902, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -15207,6 +15220,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1057114661}
     m_Modifications:
+    - target: {fileID: 5466125265790370726, guid: 988a19fa7522bce45b2bf7214fd63636, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 700550ff96aeb4b95b27ff24e7a9e5a6, type: 2}
     - target: {fileID: 5826373172229218931, guid: 988a19fa7522bce45b2bf7214fd63636, type: 3}
       propertyPath: m_Name
       value: Snow_Small_Terrain_4
@@ -16293,6 +16310,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 752864133058229922, guid: c4c2022fa276e434d98fbb369af412bb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 700550ff96aeb4b95b27ff24e7a9e5a6, type: 2}
     - target: {fileID: 1257148062673852279, guid: c4c2022fa276e434d98fbb369af412bb, type: 3}
       propertyPath: m_Name
       value: Snow_Medium_Terrain_1
@@ -18509,6 +18530,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8703748529688464190, guid: f0932cee504e8c64baf37d1241e61809, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 700550ff96aeb4b95b27ff24e7a9e5a6, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21864,6 +21889,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1057114661}
     m_Modifications:
+    - target: {fileID: 701396834209555611, guid: c58819078a2c69941be7ac6f863b6c13, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 700550ff96aeb4b95b27ff24e7a9e5a6, type: 2}
     - target: {fileID: 1349708541309175118, guid: c58819078a2c69941be7ac6f863b6c13, type: 3}
       propertyPath: m_Name
       value: Snow_Small_Terrain_5
@@ -24733,8 +24762,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I need you to find the lost souls so me and my friends can return to Halloween
-    :(
+  m_text: I need you to help me find my  lost souls so we can return to Halloween!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -25210,6 +25238,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1057114661}
     m_Modifications:
+    - target: {fileID: 3085830734538017756, guid: f913cc942ab22bf44a750e2fbb4077eb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 700550ff96aeb4b95b27ff24e7a9e5a6, type: 2}
     - target: {fileID: 3590475853922871817, guid: f913cc942ab22bf44a750e2fbb4077eb, type: 3}
       propertyPath: m_Name
       value: Snow_Small_Terrain_3
